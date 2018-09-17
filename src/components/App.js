@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Order from './Order';
 import Inventory from './Inventory';
 import Header from './Header';
