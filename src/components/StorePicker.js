@@ -11,8 +11,9 @@ class StorePicker extends React.Component {
     goToStore = (event) => {
         //stop from from submitting
         event.preventDefault();
-        // get the test from input
+        // get the text from input
        const storeName = this.myInput.value.value;
+       //chage the page to /store/whatever they entered
        this.props.history.push(`/store/${storeName}`);
     }
 
