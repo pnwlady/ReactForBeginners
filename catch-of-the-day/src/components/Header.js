@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class Header extends React.Component {
   render() {
@@ -6,17 +6,17 @@ class Header extends React.Component {
       <header className="top">
         <h1>
           Catch
-            <span className="ofThe">
-              <span className="of">of</span>
-              <span className="the">the</span>
-            </span>
+          <span className="ofThe">
+            <span className="of">of</span>
+            <span className="the">the</span>
+          </span>
           Day
         </h1>
         <h3 className="tagline">
-        <span>Fresh Daily</span>
+          <span>Fresh Daily</span>
         </h3>
       </header>
-    )
+    );
   }
 }
 
