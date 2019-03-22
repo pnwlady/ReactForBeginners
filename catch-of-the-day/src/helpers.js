@@ -73,6 +73,7 @@ export function getFunName() {
     "halves",
     "knives",
     "wives",
+    "husbands",
     "lives",
     "elves",
     "loaves",
